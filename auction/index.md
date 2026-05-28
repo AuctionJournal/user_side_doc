@@ -1,0 +1,68 @@
+﻿[Auction Journal](../index.md)
+
+# Auction
+
+Run full auctions from the **Auctioneer Dashboard** — lots, bidding, registration, and settlement. This is separate from a public **listing**, which only promotes an upcoming sale on the website.
+
+## Build an auction
+
+- [What is an auction? How do I create one?](create-auction.md)
+- [Auction types — which to choose](auction-types.md)
+- [Prerequisites for creating an auction](auction-prerequisites.md)
+- [How do I fill in the Details section?](build-details.md)
+- [Explain how shipping works in Auction](shipping.md)
+- [How do I fill in the Upload Settings section?](build-upload-settings.md)
+- [What are auction expenses? How do I create them?](auction-expenses.md)
+- [How does Ring work in an auction?](rings.md) (Onsite With Live Webcast)
+- [Live bidding — start, stream, chat, open lots, pre-bid](live-bidding.md) (Onsite With Live Webcast)
+- [What are the different stages of an auction?](auction-stages.md)
+- [Soft close and bid soft close](soft-close.md) (online timed / absolute)
+- [How do I use the Auction Dashboard?](auction-dashboard.md)
+- [Explain Auction Summary](summary.md)
+- [How to manage auction images while creating auction](manage-auction-images.md)
+- [How to set default setting for all lots in Auction?](default-lot-settings.md)
+- [Bidder registration acceptance — automatic and manual](registration-acceptance.md)
+- [See which bidders registered for my auction](view-registrations.md)
+- [Invite bidders to an auction](invite-bidders.md)
+- [Check in a floor bidder](floor-bidder-check-in.md)
+
+## After the auction closes
+
+- [What happens automatically when an auction closes?](after-auction-closes.md)
+- [What are the types of clerk status?](clerking-status-types.md)
+- [How does clerking work in an auction?](clerking.md)
+- [How can an auctioneer edit clerking?](edit-clerking.md)
+- [How to make preceding bidding as winning bidder?](precedence-bidder-winner.md)
+- [How is a settlement generated for an auction?](generate-settlement.md)
+- [Buyer auction charges in settlement — how to add](buyer-auction-charges.md)
+- [Seller auction expenses in settlement — how to add](seller-auction-expenses.md)
+- [Buyer lot expenses — add under a lot](buyer-lot-expenses.md)
+- [Seller lot expenses — add under a lot](seller-lot-expenses.md)
+- [Update lot entries in settlement](update-lot-entries.md)
+- [Buyer settlement calculation](buyer-settlement-calculation.md)
+- [Buyer invoice — calculation per won lot](buyer-lot-calculation.md)
+- [Seller settlement calculation](seller-settlement-calculation.md)
+- [Seller invoice — calculation per sold lot](seller-lot-calculation.md)
+- [How can an auctioneer edit a settlement?](edit-settlement.md)
+- [How do adjustments work in settlement?](settlement-adjustments.md)
+- [How does payment work after auction settlement?](settlement-payment.md)
+
+## Auction lots
+
+- [How do I create a lot in an auction?](../auction-lot/create-lot.md)
+
+## For bidders (public site)
+
+- [How do I search for auctions?](../bidder/search-auctions.md)
+- [How do I register for an auction?](../bidder/register-for-auction.md)
+
+## More topics (coming)
+
+See [sample questions](../sample_questions.md) under **Auction** for remaining open questions.
+
+## Related modules
+
+- [Listing](../listing/index.md) — public promotion (not the same as a CRM auction)
+- [Initial setup — fully functional auctioneer](../auctioneeer/initial-setup.md)
+- [Onsite live webcast](onsite-livewebcast/index.md) (dev mirror: [onsite live webcast](../../auction/onsite-livewebcast/index.md))
+- [Help and Support](../help-and-support/index.md)
