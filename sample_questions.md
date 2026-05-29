@@ -320,14 +320,3 @@
 8. What happens after buyer settlemt payment is completed?
 
 ---
-
-## Doc progress (AJ more questions)
-
-| Section | Done | Pending |
-|---------|------|---------|
-| **Auction** | 1 Summary, 2 Fields, 4 Bidding dates, 5 Shipping, 6 Images, 7 Lifecycle | 3 Formulas |
-| **Auction Lot** | 1 Fields, 2–5 (linked) | — |
-| **Auction Clerking** | 1–2 | — |
-| **Auction Settlement** | 1–7 | 8 After buyer payment |
-
----
