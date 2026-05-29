@@ -15,6 +15,8 @@ Run full auctions from the **Auctioneer Dashboard** — lots, bidding, registrat
 - [What are auction expenses? How do I create them?](auction-expenses.md)
 - [How does Ring work in an auction?](rings.md) (Onsite With Live Webcast)
 - [Live bidding — start, stream, chat, open lots, pre-bid](live-bidding.md) (Onsite With Live Webcast)
+- [Explain bidding dates of an auction](bidding-dates.md)
+- [Explain the auction lifecycle](lifecycle.md)
 - [What are the different stages of an auction?](auction-stages.md)
 - [Soft close and bid soft close](soft-close.md) (online timed / absolute)
 - [How do I use the Auction Dashboard?](auction-dashboard.md)

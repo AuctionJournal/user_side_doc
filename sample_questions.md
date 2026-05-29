@@ -290,10 +290,10 @@
 1. [Explain Auction Summary.](auction/summary.md)
 2. Explain each auction fields.
 3. Explain each formala used in Auction.
-4. Explain bidding dates of auction?
+4. [Explain bidding dates of an auction?](auction/bidding-dates.md)
 5. [Explain how shipping works in Auction?](auction/shipping.md)
 6. [How to manage auction images While creating Auction?](auction/manage-auction-images.md)
-7. Explain Auction lifecycle.
+7. [Explain Auction lifecycle.](auction/lifecycle.md)
 
 ## Auction Lot
 
@@ -318,6 +318,16 @@
 6. [Explain settlement calculation of each lot won by bidder.](auction/buyer-lot-calculation.md)
 7. [Explain settlement calcuation of each lot sold by seller.](auction/seller-lot-calculation.md)
 8. What happens after buyer settlemt payment is completed?
-9. How payments work in settlement?
+
+---
+
+## Doc progress (AJ more questions)
+
+| Section | Done | Pending |
+|---------|------|---------|
+| **Auction** | 1 Summary, 4 Bidding dates, 5 Shipping, 6 Images, 7 Lifecycle | 2 Fields, 3 Formulas |
+| **Auction Lot** | 2–5 (linked) | 1 Lot fields |
+| **Auction Clerking** | 1–2 | — |
+| **Auction Settlement** | 1–7 | 8 After buyer payment |
 
 ---

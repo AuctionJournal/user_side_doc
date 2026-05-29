@@ -6,9 +6,9 @@
 
 ## Overview
 
-An auction moves through **time-based stages** from the moment you create it until buyers and sellers are paid. On the **Auctioneer Dashboard**, the current stage appears as a **status label** on the auction (for example **Draft**, **Registration Open**, **Bidding Open**, **Closed**). That label comes from your auction’s **listing date**, **bidding dates**, and **auction type**.
+An auction moves through **time-based stages** from the moment you create it until buyers and sellers are paid. On the **Auctioneer Dashboard**, the current stage appears as a **status label** on the auction (for example **Draft**, **Registration Open**, **Bidding Open**, **Closed**). That label comes from your auction’s **listing date**, **bidding dates**, and **auction type**. For what each date field means and how to set them, see **[Bidding dates in an auction](bidding-dates.md)**.
 
-After the auction is **Closed**, you finish **clerking** if needed, **generate settlement**, then **collect payment** from buyers and pay sellers.
+After the auction is **Closed**, you finish **clerking** if needed, **generate settlement**, then **collect payment** from buyers and pay sellers. For the full path from **draft** through **publish** to payments, see **[Explain the auction lifecycle](lifecycle.md)**.
 
 ---
 
