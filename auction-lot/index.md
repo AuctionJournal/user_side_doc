@@ -6,6 +6,7 @@ Lots are the items bidders compete for inside an **auction** you run in the Auct
 
 ## Auctioneer guides
 
+- [Explain each auction lot field](fields.md)
 - [What are the ways lots can be created in an auction?](lot-creation-ways.md)
 - [What are QR lots?](qr-lots.md)
 - [How to use lot QR images](use-lot-qr-images.md)

@@ -6,6 +6,8 @@
 
 ## Overview
 
+Field-by-field reference for the whole auction: [Explain each auction field](fields.md).
+
 On the **Auction** build screen, open the **Details** tab. Expand each subsection (accordion), fill in the fields, and use **SAVE AS DRAFT** at the top when you want to save progress.
 
 ![Details tab — subsections](../image/auction/build-tabs-details.png "Details tab")

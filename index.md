@@ -46,6 +46,7 @@ Documentation of auction journal for users in QA style.
   - [Build — Upload Settings](auction/build-upload-settings.md)
   - [Bidding dates in an auction](auction/bidding-dates.md)
   - [Auction lifecycle](auction/lifecycle.md)
+  - [Auction fields](auction/fields.md)
   - [Auction expenses](auction/auction-expenses.md)
   - [Onsite Live Webcast](auction/onsite-livewebcast/index.md)
   - [Registration acceptance](auction/registration-acceptance.md)

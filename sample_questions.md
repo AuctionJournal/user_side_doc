@@ -288,7 +288,7 @@
 ## Auction
 
 1. [Explain Auction Summary.](auction/summary.md)
-2. Explain each auction fields.
+2. [Explain each auction field.](auction/fields.md)
 3. Explain each formala used in Auction.
 4. [Explain bidding dates of an auction?](auction/bidding-dates.md)
 5. [Explain how shipping works in Auction?](auction/shipping.md)
@@ -297,7 +297,7 @@
 
 ## Auction Lot
 
-1. Explain each auction lot fields
+1. [Explain each auction lot field.](auction-lot/fields.md)
 2. [How to use lot qr images?](auction-lot/use-lot-qr-images.md)
 3. [What is lot qr labels? how to use it?](auction-lot/lot-qr-labels.md)
 4. [How to set default setting for all lots in Auction?](auction/default-lot-settings.md)
@@ -325,8 +325,8 @@
 
 | Section | Done | Pending |
 |---------|------|---------|
-| **Auction** | 1 Summary, 4 Bidding dates, 5 Shipping, 6 Images, 7 Lifecycle | 2 Fields, 3 Formulas |
-| **Auction Lot** | 2–5 (linked) | 1 Lot fields |
+| **Auction** | 1 Summary, 2 Fields, 4 Bidding dates, 5 Shipping, 6 Images, 7 Lifecycle | 3 Formulas |
+| **Auction Lot** | 1 Fields, 2–5 (linked) | — |
 | **Auction Clerking** | 1–2 | — |
 | **Auction Settlement** | 1–7 | 8 After buyer payment |
 

@@ -9,6 +9,7 @@ Run full auctions from the **Auctioneer Dashboard** — lots, bidding, registrat
 - [What is an auction? How do I create one?](create-auction.md)
 - [Auction types — which to choose](auction-types.md)
 - [Prerequisites for creating an auction](auction-prerequisites.md)
+- [Explain each auction field](fields.md)
 - [How do I fill in the Details section?](build-details.md)
 - [Explain how shipping works in Auction](shipping.md)
 - [How do I fill in the Upload Settings section?](build-upload-settings.md)

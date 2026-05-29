@@ -34,6 +34,8 @@ If you changed **New Lot Default** but did not **save the auction**, you will be
 
 ## New Lot form sections
 
+Full field reference: [Explain each auction lot field](fields.md).
+
 ### Lot Info
 
 | Field | Required | Notes |

@@ -53,6 +53,8 @@ If a field is grayed out, the auction phase—not your role—is blocking it. Co
 
 ## Edit screen overview
 
+Field reference for all sections: [Explain each auction lot field](fields.md).
+
 At the top:
 
 - **Back** — leave the editor (discard prompt if you changed anything).
