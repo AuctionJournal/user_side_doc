@@ -105,7 +105,7 @@ flowchart LR
 
 ### Onsite-only actions (top right of tab bar)
 
-- **Prebids** — when pre-bidding is enabled and open (catalogued onsite).
+- **Prebids** — when pre-bidding is enabled and open (catalogued onsite). See [How does prebidding work?](../auction-lot/prebidding-onsite-livewebcast.md).
 - **Result** — after close bidding time (onsite results / prebid flows).
 
 ---
@@ -114,7 +114,7 @@ flowchart LR
 
 ![Registration tab](../image/auction/auction-dashboard-registration.png "Registration")
 
-Manage who can bid on this auction. For a full walkthrough of the table and columns, see [See which bidders registered](view-registrations.md).
+Manage who can bid on this auction. For a full walkthrough of the table and columns, see [How to see all bidders registered in my auction](view-registrations.md).
 
 | Action | Use |
 |--------|-----|
@@ -153,7 +153,9 @@ To **change** settings, use **Edit** from the auctions list → **Build Auction*
 
 ![Lot Status tab](../image/auction/auction-dashboard-lot-status.png "Lot Status")
 
-Monitor every lot during and after bidding.
+Monitor every lot during and after bidding — clerk status, bid counts, watchlists, views, and per-lot bid history.
+
+**Full guide:** [How to view bidding status on lots in my auction?](../auction-lot/view-lot-bidding-status.md)
 
 | Control | Purpose |
 |---------|---------|
@@ -162,15 +164,7 @@ Monitor every lot during and after bidding.
 | **Lazy load / pagination** | Load more lots or page through the list |
 | **Prebids** (onsite) | Shortcut when pre-bidding applies |
 
-**Columns (typical):** sale order, lot image and title, **time left** / phase (for example **Pre Bidding Open**, soft close countdown), **current winning bid**, reserve met indicator, max bid, **bids** (click to open bid list), watches, views.
-
-### Edit bidding on a lot
-
-1. Click the **bids** count (or open bid details for that lot).
-2. In the bid popup, use **edit** on a bid row when the auctioneer edit path is allowed.
-3. Adjust bid amount or status per product rules (online vs closed onsite lots may differ).
-
-Clerking outcomes (sold / pass / hold) are updated in **live webcast** during onsite sales or on **Auction Day** clerking after close — see [Clerking](clerking.md) and [Edit clerking](edit-clerking.md). The **Lot Status** tab focuses on **bid history** and monitoring.
+Clerking outcomes (sold / pass / hold) are updated in **live webcast** or **Auction Day** clerking — see [Clerking](clerking.md). Use **Lot Status** to monitor bids and open bid or watchlist detail popups.
 
 ---
 

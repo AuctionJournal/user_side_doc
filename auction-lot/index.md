@@ -19,6 +19,9 @@ Lots are the items bidders compete for inside an **auction** you run in the Auct
 - [How can an auctioneer edit a lot?](edit-lot.md)
 - [Auction Lot AI — fast catalog & Analyse lots](lot-ai.md)
 - [Online bidding — increments, how to bid, edit bids](bidding.md)
+- [How to view bidding status on lots in my auction](view-lot-bidding-status.md)
+- [Prebidding in Onsite With Live Webcast](prebidding-onsite-livewebcast.md)
+- [View and handle a bidder's bids on lots](view-bidder-bids-on-lots.md)
 
 ## Related
 

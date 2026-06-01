@@ -67,7 +67,7 @@ Seller expenses on the lot at build time are included at generation; you can add
 | Situation | Use instead |
 |-----------|-------------|
 | Wrong hammer, lot not sold, wrong buyer | **Clerking** — settlement lot lines rebuild from clerking ([After you generate](generate-settlement.md#after-you-generate)) |
-| One discount or surcharge for the **entire** invoice | **Adjustment** — see [How do adjustments work in settlement?](settlement-adjustments.md) |
+| One discount or surcharge for the **entire** invoice | **Adjustment** — see [What if an auctioneer wants to do some adjustments in settlement?](settlement-adjustments.md) |
 | First-time invoices | **Generate Invoice** on the Settlement tab |
 
 ---
@@ -96,7 +96,7 @@ Seller expenses on the lot at build time are included at generation; you can add
 
 - [Buyer settlement calculation](buyer-settlement-calculation.md)
 - [Seller settlement calculation](seller-settlement-calculation.md)
-- [Settlement adjustments](settlement-adjustments.md)
+- [Adjustments in settlement — how they work](settlement-adjustments.md)
 - [Settlement payment](settlement-payment.md)
 - [Miscellaneous accounts — Adjustments parent](../auctioneer-misc/account.md)
 - Dev: [Edit settlement](../../auction/settlement/edit.md) · [Settlement hub](../../auction/settlement/index.md)

@@ -70,7 +70,7 @@ Same as online: after listing date, bidders can register on Auction Journal.
 | **Pre-bidding start** | When bidders can start placing bids on the **website catalog** before the first live day. |
 | **Live webcast day(s)** | One or more **bidding days** when you run the sale in the **live ring** (stream, floor bids, clerk). |
 
-While pre-bidding is on, bidders can bid on [auctionjournal.com](https://auctionjournal.com/) from pre-bidding start until the **auction ends** (see end date below), except when a lot is **live in a ring** (then bidding moves to the live webcast page).
+While pre-bidding is on, bidders can bid on [auctionjournal.com](https://auctionjournal.com/) from pre-bidding start until the **auction ends** (see end date below), except when a lot is **live in a ring** (then bidding moves to the live webcast page). Full flow: [How does prebidding work in an Onsite with Livewebcast auction?](../auction-lot/prebidding-onsite-livewebcast.md).
 
 Between multiple live days, pre-bidding on the catalog can continue overnight or on off-days if you enabled pre-bidding. The dashboard may show **Prebidding Open** again until the next live day.
 

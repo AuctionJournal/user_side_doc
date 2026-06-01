@@ -111,6 +111,7 @@ Customers created by **import** or **seller invite** may still need step-3-style
 
 ## Related
 
+- [Seller client vs buyer client](seller-vs-buyer-client.md) — when to use each role  
 - [Who is a customer? How do I add one?](add-customer.md) — full 3-step create flow  
 - [Formulas](../../auctioneer-misc/formulas.md) — create commission, tax, and premium formulas  
 - [Bidder vs customer](bidder-relationship.md) — online bidders and your customer record

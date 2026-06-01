@@ -1,6 +1,6 @@
 [Auction](./index.md) · [Auction Journal](../index.md)
 
-# How do I see which bidders registered for my auction?
+# How to see all bidders registered in my auction?
 
 Use the **Registration** tab on that auction’s **Auction Dashboard**. Every online registration (and floor check-ins you record) appears in one searchable table.
 
@@ -54,8 +54,8 @@ Click the **chevron** on the left of a row to expand it.
 
 | Action | Use |
 |--------|---------|
-| **View Profile** | Full bidder details, score history, and permanent bid permission across your auctions. |
-| **View Bids** | All bids this person placed on lots in this auction (disabled if bid count is 0). |
+| **View Profile** | Full **Bidder Profile** — contact, ID, history, permanent permission, and public notes from other auctioneers. See [View details of a registered bidder](view-bidder-registration-details.md). |
+| **View Bids** | All bids this person placed on lots in this auction (disabled if bid count is 0). See [View and handle bids from a bidder](../auction-lot/view-bidder-bids-on-lots.md). |
 | **View Permission Status** | Current approval for **this auction** only; **EDIT** to approve or decline. |
 
 ---
@@ -83,6 +83,8 @@ More on the full dashboard: [How do I use the Auction Dashboard?](auction-dashbo
 
 ## Related
 
+- [View and handle bids from a bidder on lots](../auction-lot/view-bidder-bids-on-lots.md)  
+- [View details of a registered bidder](view-bidder-registration-details.md)  
 - [Registration acceptance — approve or decline](registration-acceptance.md)
 - [Auction Dashboard](auction-dashboard.md)
 - [Invite bidders to an auction](invite-bidders.md)

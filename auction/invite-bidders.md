@@ -95,7 +95,7 @@ Enter an amount greater than zero, then select **Send Email**.
 
 ## Related
 
-- [See which bidders registered](view-registrations.md)
+- [How to see all bidders registered in my auction](view-registrations.md)
 - [Registration acceptance](registration-acceptance.md)
 - [How bidders register for an auction](../bidder/register-for-auction.md)
 - [Check in a floor bidder](floor-bidder-check-in.md)

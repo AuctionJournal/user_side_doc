@@ -136,6 +136,7 @@ See [Who is a floor bidder? How do I onboard one?](floor-bidder/index.md).
 
 ## Related
 
+- [What is the difference between a seller client and a buyer client?](seller-vs-buyer-client.md)  
 - [In what ways are customers created for an auctioneer?](creation.md)  
 - [Auctioneer Dashboard](../auctioneeer/dashboard.md) — **Customers** menu  
 - [Who is an auctioneer?](../auctioneeer/role.md)

@@ -159,6 +159,12 @@
 9. [Explain soft close in an auction. How do bid soft close and soft close work?](auction/soft-close.md)
 10. [How do I use the Auction Dashboard?](auction/auction-dashboard.md)
 11. [What happens automatically when an auction closes?](auction/after-auction-closes.md)
+12. [Explain Auction Summary.](auction/summary.md)
+13. [Explain each auction field.](auction/fields.md)
+14. [Explain bidding dates of an auction?](auction/bidding-dates.md)
+15. [Explain how shipping works in Auction?](auction/shipping.md)
+16. [How to manage auction images While creating Auction?](auction/manage-auction-images.md)
+17. [Explain Auction lifecycle.](auction/lifecycle.md)
 
 ##### For Bidder
 
@@ -189,7 +195,7 @@
 ##### For Auctioneer
 
 1. [How does bidder registration acceptance work in an auction? Can the auctioneer change it manually?](auction/registration-acceptance.md)
-2. [How do I see which bidders registered for my auction?](auction/view-registrations.md)
+2. [How to see all bidders registered in my auction?](auction/view-registrations.md)
 3. [How do I check in a floor bidder for an auction?](auction/floor-bidder-check-in.md)
 4. [How can an auctioneer invite bidders to an auction?](auction/invite-bidders.md)
 
@@ -227,8 +233,15 @@
 2. [Explain the full settlement calculation for a buyer.](auction/buyer-settlement-calculation.md)
 3. [Explain the full settlement calculation for a seller.](auction/seller-settlement-calculation.md)
 4. [How can an auctioneer edit a settlement?](auction/edit-settlement.md)
-5. [How do adjustments work in settlement?](auction/settlement-adjustments.md)
+5. [What if an auctioneer wants to do some adjustments in settlement? How does it work?](auction/settlement-adjustments.md)
 6. [How does payment work after auction settlement?](auction/settlement-payment.md)
+7. [What is buyer auction charges in settlement? How to add?](auction/buyer-auction-charges.md)
+8. [What is seller auction expenses in settlement? How to add?](auction/seller-auction-expenses.md)
+9. [What is Buyer Lot expenses? How to add expense under lot?](auction/buyer-lot-expenses.md)
+10. [What is Seller Lot expenses? How to add expense under lot?](auction/seller-lot-expenses.md)
+11. [How to update Lot entries in settlement?](auction/update-lot-entries.md)
+12. [Explain settlement calculation of each lot won by bidder.](auction/buyer-lot-calculation.md)
+13. [Explain settlement calcuation of each lot sold by seller.](auction/seller-lot-calculation.md)
 
 ## Billing and Payment
 
@@ -255,7 +268,7 @@
 6. [How do I promote a listing (ticker vs featured national vs featured state)?](advertisement/listing-ads.md)
 7. [How do I create a print, poster, or banner advertisement?](advertisement/business-create-ads.md)
 8. [How do I advertise my blog or video content?](advertisement/blog-video-ads.md)
-9. [How does advertisement pricing and duration work?](advertisement/pricing-and-duration.md) What if auctioneer wants to do some adjustments in settlment? how does it works?
+9. [How does advertisement pricing and duration work?](advertisement/pricing-and-duration.md)
 10. [When does my paid advertisement go live on Auction Journal?](advertisement/go-live.md)
 
 ## Customer
@@ -287,13 +300,7 @@
 
 ## Auction
 
-1. [Explain Auction Summary.](auction/summary.md)
-2. [Explain each auction field.](auction/fields.md)
-3. Explain each formala used in Auction.
-4. [Explain bidding dates of an auction?](auction/bidding-dates.md)
-5. [Explain how shipping works in Auction?](auction/shipping.md)
-6. [How to manage auction images While creating Auction?](auction/manage-auction-images.md)
-7. [Explain Auction lifecycle.](auction/lifecycle.md)
+1. Explain each formula used in Auction.
 
 ## Auction Lot
 
@@ -308,15 +315,31 @@
 1. [What are the types of clerk status?](auction/clerking-status-types.md)
 2. [How to make preceding bidding as winning bidder? How does it works?](auction/precedence-bidder-winner.md)
 
-## Auction Settlement
+## Customer
 
-1. [What is buyer auction charges in settlement? How to add?](auction/buyer-auction-charges.md)
-2. [What is seller auction expenses in settlement? How to add?](auction/seller-auction-expenses.md)
-3. [What is Buyer Lot expenses? How to add expense under lot?](auction/buyer-lot-expenses.md)
-4. [What is Seller Lot expenses? How to add expense under lot?](auction/seller-lot-expenses.md)
-5. [How to update Lot entries in settlement?](auction/update-lot-entries.md)
-6. [Explain settlement calculation of each lot won by bidder.](auction/buyer-lot-calculation.md)
-7. [Explain settlement calcuation of each lot sold by seller.](auction/seller-lot-calculation.md)
-8. What happens after buyer settlemt payment is completed?
+1. [What is the difference between a seller client and a buyer client for an auctioneer?](auctioneer-client/seller-vs-buyer-client.md)
 
----
+## Auction Registration
+
+1. [How to view details of a bidder registered in my auction?](auction/view-bidder-registration-details.md)
+
+## Auction Lot Bidding
+
+1. [How to view bidding status on lots in my auction?](auction-lot/view-lot-bidding-status.md)
+2. [How does prebidding work in an Onsite with Livewebcast auction?](auction-lot/prebidding-onsite-livewebcast.md)
+3. [How to view and handle bids from a bidder on lots in an auction?](auction-lot/view-bidder-bids-on-lots.md)
+
+## Onsite with Livewebcast Auction
+
+1. How to start an Onsite with Livewebcast auction?
+2. How to reopen a ring?
+3. What are canned messages used for, and how do I set them?
+4. How to send a custom push notification to registered bidders?
+5. How to show bidding information to onsite bidders?
+6. How to accept a floor bidder's bid?
+7. How to reopen a clerked lot?
+8. How to open a lot in another ring?
+9. How does reset bidding work?
+10. What if the auctioneer is disconnected from the ring? How do I reconnect?
+11. How to clerk a lot as sold to a floor bidder?
+12. How to ask for a custom bid amount on the live lot?

@@ -27,7 +27,7 @@ After submit, they may see **success**, **pending** (contact you), or **declined
 
 ## Where you see registrants
 
-The full list is on **Auction Dashboard → Registration**. Step-by-step and column reference: [How do I see which bidders registered for my auction?](view-registrations.md).
+The full list is on **Auction Dashboard → Registration**. Step-by-step and column reference: [How to see all bidders registered in my auction?](view-registrations.md). For the full **Bidder Profile** popup (history, ID, public notes from other auctioneers), see [View details of a registered bidder](view-bidder-registration-details.md).
 
 ---
 

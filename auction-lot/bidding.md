@@ -4,6 +4,8 @@
 
 These answers cover **timed / catalog bidding** on the public site and **Auctioneer Dashboard** moderation. **Live ring bidding** during an onsite webcast is a separate flow — see [sample questions](../sample_questions.md) under **Auction Live Bidding** when documented.
 
+To monitor all lots on one screen (bid count, watchlist, views, clerk status), see [View bidding status on lots](view-lot-bidding-status.md).
+
 ---
 
 ## How bid increments work?
@@ -56,7 +58,7 @@ See [How do I register for an auction?](../bidder/register-for-auction.md).
 
 ### Onsite live webcast note
 
-For some **onsite with live webcast** auctions, catalog bidding may only apply during **pre-bidding** or may be replaced by **live** bidding in the ring. Follow the **Bid Live** or webcast link on the lot when shown.
+For **catalogued** onsite sales with **pre-bidding** enabled, bidders place **catalog prebids** before and between live days; when a lot is **open in a ring**, bidding moves to the **live webcast**. See [Prebidding in Onsite With Live Webcast](prebidding-onsite-livewebcast.md). Follow **Bid Live** or the webcast link on the lot when shown.
 
 ---
 
@@ -76,16 +78,16 @@ You generally cannot decline or pend a bid from a bidder who is **not** the curr
 
 **From registration (per bidder):**
 
-1. Open the auction → **Registration** (or bidder registration list).
-2. View that bidder’s **bids** for the auction.
-3. Use **edit** on a bid row (when the lot is still open and the row is editable).
-4. Choose **Accept** or **Decline** for status, or **Edit max bid** on maximum-bidding auctions.
+1. Open the auction → **Dashboard** → **Registration**.
+2. Expand the bidder → **VIEW BIDS**. Full walkthrough: [View and handle bids from a bidder on lots](view-bidder-bids-on-lots.md).
+3. Use **Edit** in **Action** (accept/decline) or beside **Max** (raise maximum bid) when enabled.
+4. Save and confirm the lot’s winning bid on **Lot Status** if needed.
 
 **From lot status (per lot):**
 
-1. Open the auction → **Lot status** (or equivalent lot list with bid activity).
-2. Open **bids on lot** for the lot you need.
-3. Use **Update bid status** on the **current winner’s** row.
+1. Open the auction → **Dashboard** → **Lot Status**. See [View bidding status on lots](view-lot-bidding-status.md).
+2. Click the **Bids** count on the lot.
+3. Use **edit** on the **current winner’s** row in the bid popup.
 4. Set **Accept** or **Decline** and save.
 
 After a decline, review the lot’s **current winning bid** and **next bid** on the catalog or lot list before publish or close.

@@ -1,6 +1,6 @@
 [Auction](./index.md) · [Auction Journal](../index.md)
 
-# How do adjustments work in settlement?
+# What if an auctioneer wants to do some adjustments in settlement? How does it work?
 
 An **adjustment** is a **single** discount or surcharge on a **whole** buyer or seller invoice. It changes the **grand total** (what the buyer should pay or what you owe the seller) without changing individual lot hammer lines. Use it for goodwill credits, late fees, or other one-off invoice-level amounts—not for per-lot fees (those are **extra lot charges** or **auction charges** on the settlement).
 

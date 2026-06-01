@@ -11,8 +11,11 @@ Guides for **Onsite With Live Webcast** auctions — in-person sales with live s
 - [How does Ring work in an auction?](../rings.md)
 - [Upload Settings](../build-upload-settings.md) — bidding days, pre-bidding
 
-## Live bidding (coming)
+## Bidding
 
-See [sample questions](../sample_questions.md) under **Auction Live Bidding** for start live bidding, streaming, chat, and controllers.
+- [How does prebidding work?](../auction-lot/prebidding-onsite-livewebcast.md)
+- [Live bidding](../live-bidding.md)
+
+See [sample questions](../sample_questions.md) under **Auction Live Bidding** for additional live topics (streaming, chat, controllers).
 
 Dev mirror: [Onsite live webcast](../../../auction/onsite-livewebcast/index.md).

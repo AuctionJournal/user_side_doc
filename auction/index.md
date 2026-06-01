@@ -25,7 +25,8 @@ Run full auctions from the **Auctioneer Dashboard** — lots, bidding, registrat
 - [How to manage auction images while creating auction](manage-auction-images.md)
 - [How to set default setting for all lots in Auction?](default-lot-settings.md)
 - [Bidder registration acceptance — automatic and manual](registration-acceptance.md)
-- [See which bidders registered for my auction](view-registrations.md)
+- [How to see all bidders registered in my auction](view-registrations.md)
+- [View details of a bidder registered in my auction](view-bidder-registration-details.md)
 - [Invite bidders to an auction](invite-bidders.md)
 - [Check in a floor bidder](floor-bidder-check-in.md)
 
@@ -47,7 +48,7 @@ Run full auctions from the **Auctioneer Dashboard** — lots, bidding, registrat
 - [Seller settlement calculation](seller-settlement-calculation.md)
 - [Seller invoice — calculation per sold lot](seller-lot-calculation.md)
 - [How can an auctioneer edit a settlement?](edit-settlement.md)
-- [How do adjustments work in settlement?](settlement-adjustments.md)
+- [What if an auctioneer wants to do some adjustments in settlement? How does it work?](settlement-adjustments.md)
 - [How does payment work after auction settlement?](settlement-payment.md)
 
 ## Auction lots

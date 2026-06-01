@@ -137,7 +137,7 @@ During **live webcast**, you select them and enter bids on their behalf.
 ## Related
 
 - [Who is a floor bidder? (create customer)](../auctioneer-client/floor-bidder/index.md)
-- [See which bidders registered](view-registrations.md)
+- [How to see all bidders registered in my auction](view-registrations.md)
 - [Invite bidders to an auction](invite-bidders.md)
 - [Registration acceptance](registration-acceptance.md)
 - [How do I use rings?](rings.md) · [Auction Dashboard](auction-dashboard.md#registration-tab)

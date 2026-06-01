@@ -3,6 +3,7 @@
 # Auctioneer Client
 
 - [Who is a customer? What types exist? How do I add a customer?](add-customer.md)
+- [What is the difference between a seller client and a buyer client?](seller-vs-buyer-client.md)
 - [How do I import many existing customers?](import-clients.md)
 - [How can I invite a seller to self-register?](invite-seller.md)
 - [How does a seller self-register from the invitation email?](seller-self-register.md)
