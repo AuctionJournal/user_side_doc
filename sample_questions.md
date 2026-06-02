@@ -331,15 +331,14 @@
 
 ## Onsite with Livewebcast Auction
 
-1. How to start an Onsite with Livewebcast auction?
-2. How to reopen a ring?
-3. What are canned messages used for, and how do I set them?
-4. How to send a custom push notification to registered bidders?
-5. How to show bidding information to onsite bidders?
-6. How to accept a floor bidder's bid?
-7. How to reopen a clerked lot?
-8. How to open a lot in another ring?
-9. How does reset bidding work?
+2. [How to reopen a ring?](auction/live-bidding.md#how-to-reopen-a-ring)
+3. [What are canned messages used for, and how do I set them?](auction/live-bidding.md#what-are-canned-messages-used-for-and-how-do-i-set-them)
+4. [How to send a custom push notification to registered bidders?](auction/live-bidding.md#how-to-send-a-custom-push-notification-to-registered-bidders)
+5. [How to show bidding information to onsite bidders?](auction/live-bidding.md#how-to-show-bidding-information-to-onsite-bidders)
+6. [How to accept a floor bidder's bid?](auction/live-bidding.md#how-to-accept-a-floor-bidders-bid)
+7. [How to reopen a clerked lot?](auction/live-bidding.md#how-to-reopen-a-clerked-lot)
+8. [How to open a lot in another ring?](auction/live-bidding.md#how-to-open-a-lot-in-another-ring)
+9. [How does reset bidding work?](auction/live-bidding.md#how-does-reset-bidding-work)
 10. What if the auctioneer is disconnected from the ring? How do I reconnect?
 11. How to clerk a lot as sold to a floor bidder?
 12. How to ask for a custom bid amount on the live lot?

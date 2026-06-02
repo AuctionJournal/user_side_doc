@@ -15,7 +15,7 @@ Run full auctions from the **Auctioneer Dashboard** — lots, bidding, registrat
 - [How do I fill in the Upload Settings section?](build-upload-settings.md)
 - [What are auction expenses? How do I create them?](auction-expenses.md)
 - [How does Ring work in an auction?](rings.md) (Onsite With Live Webcast)
-- [Live bidding — start, stream, chat, open lots, pre-bid](live-bidding.md) (Onsite With Live Webcast)
+- [Live bidding — start, reopen ring, stream, chat, canned messages, push notifications, presenter display, floor-bid acceptance, reopen clerked lots, cross-ring lot open, reset bidding, open lots, pre-bid](live-bidding.md) (Onsite With Live Webcast)
 - [Explain bidding dates of an auction](bidding-dates.md)
 - [Explain the auction lifecycle](lifecycle.md)
 - [What are the different stages of an auction?](auction-stages.md)

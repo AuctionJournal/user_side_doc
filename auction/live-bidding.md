@@ -2,6 +2,8 @@
 
 # Live bidding (onsite webcast)
 
+Last modified: 2026-06-02
+
 These answers apply to **Onsite With Live Webcast** auctions when you run a **live ring** in the Auctioneer Dashboard. For timed catalog bidding on the public site, see [Online bidding on auction lots](../auction-lot/bidding.md).
 
 ---
@@ -52,6 +54,23 @@ These answers apply to **Onsite With Live Webcast** auctions when you run a **li
 - If you close the live tab without closing the ring properly, the dashboard may show a **reconnect** countdown. Return within that window or another auctioneer action may be needed.
 
 See also [How does Ring work in an auction?](rings.md).
+
+---
+
+## How to reopen a ring?
+
+If a ring was already opened earlier (for example **Ring 1**), you can reopen it and continue work as long as either condition is true:
+
+- The auction is still open (not closed).
+- That ring still has lots pending to be clerked.
+
+### Steps
+
+1. Return to the auction dashboard and click **Start Your Live Auction** again.
+2. In **Ring Options**, select the previously opened ring you want to continue.
+3. Enter the ring and reopen the next pending lot.
+
+Once the ring is restarted, the auctioneer can continue opening remaining lots and complete clerking for them.
 
 ---
 
@@ -116,6 +135,207 @@ You can send a **title** and **message** that appear as an instant popup on bidd
 ### Warning banners
 
 Separate from chat text, the ring can show **fair warning**, **reserve not met**, **bidding paused**, and **asking price** style alerts to bidders.
+
+---
+
+## What are canned messages used for, and how do I set them?
+
+Canned messages are **fast message buttons** in live webcast chat. They help the auctioneer post repeated alerts quickly (for example: “10 min remaining”, “Bid fast”, or “Bidding paused”) without typing each time.
+
+### What they do during live bidding
+
+- The configured canned messages appear as quick buttons in the auctioneer chat panel.
+- Clicking a button immediately sends that text to the bidder chat stream as an auctioneer announcement.
+- They are useful for high-speed moments when you need consistent, repeatable updates.
+
+![Canned message quick buttons in live chat](../image/auction/live-bidding-canned-messages-chat-buttons.png "Live chat canned message buttons")
+
+*The quick buttons let the auctioneer send preset alerts instantly to bidders in chat.*
+
+### How to set or change canned messages
+
+1. Enter the live ring and open the **Chat** panel.
+2. Click the **Settings** icon in chat.
+3. Select **Modify Canned Messages in bidder’s chat for quick reply**.
+4. Enter your text in **Canned Message 1** to **Canned Message 4**.
+5. Click **Save**.
+
+![Canned Messages settings dialog](../image/auction/live-bidding-canned-messages-settings-dialog.png "Canned Messages settings")
+
+*Use this settings dialog to create or update up to four canned quick-reply messages.*
+
+You can edit these messages anytime while running the ring, based on your sale pace and communication style.
+
+---
+
+## How to send a custom push notification to registered bidders?
+
+In a live ring, the auctioneer can send a custom push notification to bidders watching that ring on [auctionjournal.com](https://auctionjournal.com/). This is useful for urgent updates or reminders (for example, “Ring is open now”, “Lot reopened”, or “Bidding resumes shortly”).
+
+### Steps
+
+1. Open the live ring and go to the **Chat** panel.
+2. Click the **Settings** icon.
+3. Select **Send custom Push Notification to registered bidder’s**.
+4. Enter a **Title** and **Description** (both are required).
+5. Click **Save** to send the notification.
+
+![Send Push Notification dialog](../image/auction/live-bidding-send-push-notification-dialog.png "Send Push Notification")
+
+*Use this popup to send a custom alert to bidders currently associated with the live ring.*
+
+If you click **Create Later**, the popup closes without sending a notification.
+
+---
+
+## How to show bidding information to onsite bidders?
+
+In live auctions, online bidders watch and bid from [auctionjournal.com](https://auctionjournal.com/). For floor (onsite) bidders, the auctioneer should open the **Presenter** view and display it on a large screen in the hall so everyone can follow live bidding status.
+
+### Why use Presenter for floor bidders
+
+- It gives onsite bidders a clean, read-only live view without clerk controls.
+- It shows key lot details and bidding values while the auctioneer continues controlling bids in the live ring tab.
+- It helps the floor crowd track asking, current winning amount, ring number, and reserve status in real time.
+
+### How to show the Presenter screen
+
+1. Start and enter your live ring from the Auctioneer Dashboard.
+2. In the top toolbar, click **PRESENTER**.
+3. Open that Presenter window/tab on a projector or large display visible to floor bidders.
+4. Keep running the auction from your main live ring screen; the Presenter updates as lot and bid data changes.
+
+![Presenter button in live ring toolbar](../image/auction/live-bidding-presenter-button.png "Presenter button")
+
+*Use the Presenter button to open the floor display view from the live ring toolbar.*
+
+![Presenter screen for onsite bidders](../image/auction/live-bidding-presenter-screen.png "Presenter screen")
+
+*The Presenter screen shows lot image, lot number, ring, lot count, asking, winning amount, estimate, and reserve status for floor bidders.*
+
+### Practical setup tips
+
+- Keep the Presenter on a dedicated full-screen display in the hall.
+- Use the main clerk/auctioneer screen separately to accept and register floor bids.
+- Floor bidders bid offline (verbally/signals), and the auctioneer records those bids in the live ring.
+
+---
+
+## How to accept a floor bidder's bid?
+
+Floor bidders in the hall do not place bids directly in Auction Journal. They watch the presenter/bidding screen onsite and call out or signal bids, then the auctioneer accepts those bids in the live ring controls.
+
+### Ways to accept a floor bid
+
+1. **Use increment-pattern values (New Floor Bid)**  
+   In **New Floor Bid**, choose one of the suggested values based on your current increment pattern.
+
+![New Floor Bid quick values](../image/auction/live-bidding-floor-bid-quick-values.png "New Floor Bid quick values")
+
+*Use quick floor-bid values for fast, increment-based bidding.*
+
+2. **Enter a custom floor bid amount**  
+   Open the **New Floor Bid** input modal, type any valid bid amount, then click **Set**.
+
+![New Floor Bid custom amount modal](../image/auction/live-bidding-floor-bid-custom-modal.png "New Floor Bid custom amount")
+
+*Use this modal when the floor bid amount is not one of the quick preset values.*
+
+3. **Allow lower-than-current floor bids (override mode)**  
+   Enable **Allow Floor Bid Less Than Current** when you intentionally need to accept a lower floor bid, then place that bid by quick value or custom amount.
+
+4. **Use FLOOR WINNING to switch winner to floor at current amount**  
+   If an internet bidder is currently winning, click **FLOOR WINNING {amount}** to make the floor bidder the winner at that same current amount.
+
+![Floor winning takeover button](../image/auction/live-bidding-floor-winning-button.png "Floor winning button")
+
+*This action keeps the amount the same but changes the current winning side to floor bidder.*
+
+### Notes
+
+- Floor bids are entered by the auctioneer on behalf of onsite bidders.
+- The live ring and presenter update so both onsite and online participants can see the latest bidding state.
+
+---
+
+## How to reopen a clerked lot?
+
+Yes. A lot that was already clerked (for example **Lot 9 sold at $200**) can be reopened in live bidding when the auctioneer intentionally confirms reopening.
+
+### Reopen flow
+
+1. In the live ring, enter the lot number and click **OPEN**.
+2. If that lot was previously clerked as sold, a warning confirmation appears.
+3. Click **YES** only if you want to reopen the clerked lot.
+4. The lot reopens and bidding continues from the previously clerked amount (for example **$200**).
+5. Continue bidding as normal, then clerk the lot again at the final amount/result.
+
+![Reopen clerked lot warning dialog](../image/auction/live-bidding-reopen-clerked-warning-dialog.png "Reopen clerked lot warning")
+
+*The system asks for explicit confirmation before reopening a previously clerked sold lot.*
+
+![Reopened lot final result example](../image/auction/live-bidding-reopen-clerked-result-example.png "Reopened lot result")
+
+*After reopening, bidding can continue and the lot can be clerked again with an updated final result.*
+
+### Important note
+
+- Reopening a clerked lot is a deliberate override action. Use it only when you intentionally need to continue bidding on that lot.
+
+---
+
+## How to open a lot in another ring?
+
+Yes. In a multi-ring onsite live webcast auction, you can open a lot from another ring while staying in the current ring.
+
+Example:
+
+- **Ring 1 range:** Lot 1-10
+- You can still open **Lot 11** (normally in Ring 2) from Ring 1 after confirmation.
+
+![Ring range example](../image/auction/live-bidding-cross-ring-range-example.png "Ring range example")
+
+*This example shows Ring 1 configured for lots 1-10.*
+
+### Steps
+
+1. In your current live ring, enter the lot number from another ring (for example **11**) and click **OPEN**.
+2. A warning appears asking if you are sure you want to open that lot in the current ring.
+3. Click **YES** to proceed.
+4. The lot opens in the current ring and bidding continues from there.
+
+![Open lot in another ring warning](../image/auction/live-bidding-cross-ring-warning-dialog.png "Open lot in another ring warning")
+
+*Use Yes only when you intentionally want to run that lot in this ring.*
+
+### What changes after cross-ring open
+
+- The current ring’s lot count/lots-left increases for that lot.
+- The original ring’s lot count/lots-left decreases accordingly.
+- This behavior applies regardless of whether that lot was previously clerked or not (with additional confirmations where applicable).
+
+---
+
+## How does reset bidding work?
+
+The auctioneer can reset bidding at any time for the currently opened live lot.
+
+### What reset bidding does
+
+- It resets only the **live webcast bidding** on that open lot.
+- The lot’s live bids/counters are cleared for the current live run.
+- Bidding starts again from the lot’s pre-bidding baseline state.
+
+### What it does not do
+
+- It does **not** erase pre-bidding history itself.
+- Pre-bidding values remain the baseline used to restart bidding.
+
+### Typical use
+
+Use **Reset Bidding** when the auctioneer wants to restart live bidding flow on the open lot without deleting pre-bid setup.
+
+After reset, bidders see the lot continue with a fresh live bidding run from the pre-bid baseline.
 
 ---
 

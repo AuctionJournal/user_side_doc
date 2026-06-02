@@ -14,7 +14,7 @@ Guides for **Onsite With Live Webcast** auctions — in-person sales with live s
 ## Bidding
 
 - [How does prebidding work?](../auction-lot/prebidding-onsite-livewebcast.md)
-- [Live bidding](../live-bidding.md)
+- [Live bidding](../live-bidding.md) — start live, reopen ring, stream, chat, canned messages, push notifications, presenter display, floor-bid acceptance, reopen clerked lots, cross-ring lot open, reset bidding
 
 See [sample questions](../sample_questions.md) under **Auction Live Bidding** for additional live topics (streaming, chat, controllers).
 
