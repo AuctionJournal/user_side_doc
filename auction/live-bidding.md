@@ -2,7 +2,7 @@
 
 # Live bidding (onsite webcast)
 
-Last modified: 2026-06-02
+Last modified: 2026-06-03
 
 These answers apply to **Onsite With Live Webcast** auctions when you run a **live ring** in the Auctioneer Dashboard. For timed catalog bidding on the public site, see [Online bidding on auction lots](../auction-lot/bidding.md).
 
@@ -51,7 +51,7 @@ These answers apply to **Onsite With Live Webcast** auctions when you run a **li
 
 **If you disconnect**
 
-- If you close the live tab without closing the ring properly, the dashboard may show a **reconnect** countdown. Return within that window or another auctioneer action may be needed.
+- See [What if the auctioneer is disconnected from the ring? How do I reconnect?](#what-if-the-auctioneer-is-disconnected-from-the-ring-how-do-i-reconnect) below.
 
 See also [How does Ring work in an auction?](rings.md).
 
@@ -74,6 +74,70 @@ Once the ring is restarted, the auctioneer can continue opening remaining lots a
 
 ---
 
+## What if the auctioneer is disconnected from the ring? How do I reconnect?
+
+You are **disconnected from the ring** when you are no longer connected to the **live ring** session in your browser, even though the auction dashboard may still show that ring as open. Common causes:
+
+- Lost internet or Wi‑Fi
+- Closed the **live ring** browser tab or window by mistake
+- Browser crash or computer sleep
+- A brief Auction Journal or live webcast service issue
+
+Auction Journal handles this gracefully in most cases. Coordinate with your **clerk** and hold the sale briefly while you reconnect.
+
+### What usually happens
+
+- The ring may **pause** briefly while you are disconnected.
+- **Internet bidders** are not blocked from the sale; they can refresh their live auction page and see updated bids and stream when available.
+- On the main auction dashboard you may see a red **Auctioneer Disconnected : closing unused ring … please wait** message (single-ring auctions) with a short countdown.
+
+### Reconnect — try in this order
+
+#### 1. Same live ring tab
+
+If the live ring tab is still open:
+
+- Wait for the connection to come back, or **reload** the page.
+- You should rejoin the ring and continue clerking and bidding.
+
+#### 2. Lost the live ring tab
+
+1. Open the auction in the **Auctioneer Dashboard**.
+2. Click **Start Your Live Auction**.
+3. In **Ring Options**, check the ring you were running.
+
+![Ring Options with Restart on an open ring](../image/auction/live-bidding-ring-options-restart.png "Ring Options — Restart")
+
+*If the row says **Ring is open for bidding** and shows **Restart**, the system still considers that ring session active but you are not in the live tab.*
+
+- If you see a **chevron** (›) and the ring is **not** live — follow [How to reopen a ring?](#how-to-reopen-a-ring) to enter again and continue lots.
+- If you see **Restart** and the live session is **frozen** or you cannot re-enter — use **Restart** only after confirming with your clerk that no one else is actively running that ring.
+
+#### 3. Restart Ring (when the session is stuck)
+
+1. Click **Restart** on the open ring row.
+2. Read the **Restart Ring** confirmation carefully.
+
+![Restart Ring confirmation](../image/auction/live-bidding-restart-ring-confirm.png "Restart Ring")
+
+*Restarting closes the current live session and **resets bidding on the active lot** in that ring. Use this when the session was interrupted or frozen — not during normal live bidding.*
+
+3. Choose **Yes, I Understand & Restart** only if you and the clerk agree.
+4. Choose **No, Keep Ring Active** if another operator is still running that ring or you are not sure.
+5. After a successful restart, wait for the dashboard to refresh, then **Start Your Live Auction** again and re-enter the ring (device test → **Enter Ring**).
+
+### Bidders who disconnect
+
+If an **internet bidder** loses connection, it does **not** stop the ring. They can **refresh** the live auction page on the public site to rejoin and receive the latest bids and video.
+
+### See also
+
+- [How does Ring work in an auction?](rings.md)
+- [How to reopen a ring?](#how-to-reopen-a-ring) — when the ring row is not live (chevron), not **Restart**
+- [How does reset bidding work?](#how-does-reset-bidding-work) — resets bidding on one lot during live clerking (different from **Restart Ring**)
+
+---
+
 ## How do bid increments work in live bidding?
 
 During a live ring, bid steps are controlled from the **price / bidding panel** on the live screen — not from the catalog “bid $X” button alone.
@@ -92,7 +156,45 @@ During a live ring, bid steps are controlled from the **price / bidding panel** 
 
 ### Pre-bidding increments
 
-Before the ring goes live, internet prebids on the catalog use the auction’s normal **catalog increment ladder**. When the live ring opens, live increment controls take over for that session.
+Before the ring goes live, internet prebids on the catalog use the auction’s normal **catalog increment ladder**. The auctioneer **cannot** change the next bid amount during pre-bidding — increments follow the auction pattern only. When the live ring opens, live increment and **New Asking** controls take over for that session.
+
+---
+
+## How to ask for a custom bid amount on the live lot?
+
+During **live bidding** on an open lot, the **New Asking** panel sets the **next bid amount** (asking price). Internet bidders bid at that amount; floor bids typically follow the same step unless you enter a custom floor amount.
+
+This applies only in the **live ring** — not during catalog **pre-bidding**.
+
+### How asking amounts are usually chosen
+
+1. **Bid increment** — Set **Bid Increment** on the ring so quick values follow multiples of that step (from your auction increment pattern or a value you pick on the grid).
+2. **New Asking quick buttons** — Click a value in the **New Asking** row. The list is built from the current winning bid and the active increment (multiples above the current bid).
+3. **Custom amount** — Click the **pencil** icon, enter any valid amount in **New Asking**, and click **Set**.
+
+![New Asking quick buttons](../image/auction/live-bidding-new-asking-buttons.png "New Asking")
+
+*Scroll the row with the arrows if needed. Amounts at or below the current winning bid are disabled.*
+
+![New Asking custom amount modal](../image/auction/live-bidding-new-asking-custom-modal.png "New Asking modal")
+
+*Use **Set** to apply your custom asking price; **Cancel** to close without changing.*
+
+### Rules
+
+- The asking amount must be **greater than the current winning bid** (not equal, not lower). If you try a lower value, the system will reject it.
+- After you set a custom asking price, **bid increment** changes may be locked for that lot until you reset bidding or move on — plan your increment before a custom jump if needed.
+- If you see **Please select asking price or increment value to start bidding on this lot**, set **New Asking** or **Bid Increment** before taking internet or floor bids.
+
+### Pre-bidding reminder
+
+On the public catalog **before** the live ring, bidders advance by the auction’s fixed increment pattern only. You control asking only after the lot is **open** in the live ring.
+
+### See also
+
+- [How do bid increments work in live bidding?](#how-do-bid-increments-work-in-live-bidding)
+- [How to accept a floor bidder's bid?](#how-to-accept-a-floor-bidders-bid)
+- [What is the difference between pre-bidding and live bidding?](#what-is-the-difference-between-pre-bidding-and-live-bidding)
 
 ---
 
@@ -255,6 +357,53 @@ Floor bidders in the hall do not place bids directly in Auction Journal. They wa
 
 - Floor bids are entered by the auctioneer on behalf of onsite bidders.
 - The live ring and presenter update so both onsite and online participants can see the latest bidding state.
+
+---
+
+## How to clerk a lot as sold to a floor bidder?
+
+Use this when the **floor bidder is the current winning bidder** on the open lot and you are ready to close the lot as **Sold** to that floor bidder.
+
+### Before you start
+
+- **Register floor bidders** for the auction first (at least one). See [Check in a floor bidder](floor-bidder-check-in.md).
+- During live bidding, the **floor bidder must be winning** on that lot. Accept floor bids or use **FLOOR WINNING** so the winning side shows as floor — see [How to accept a floor bidder's bid?](#how-to-accept-a-floor-bidders-bid).
+- If an **internet bidder** is winning and you press **SOLD**, the lot is clerked to that **internet bidder** (no bid-card step).
+
+### Steps
+
+1. With the lot **open** in the live ring, click **FAIR WARNING**.
+
+![Fair Warning button](../image/auction/live-bidding-fair-warning-button.png "Fair Warning")
+
+*Fair warning alerts bidders that the lot is about to close.*
+
+2. After fair warning is active, click **SOLD** (or **PASS** if the lot did not sell).
+
+![Sold and Pass buttons](../image/auction/live-bidding-sold-pass-buttons.png "Sold and Pass")
+
+*Bidding is locked when you clerk; use **SOLD** only when you are closing to the current winner.*
+
+3. If the winner is a **floor bidder**, the **Clerk To Floor Bidder** dialog opens.
+4. Enter the winning floor bidder’s **bid card number**. You can confirm the number from your auction **registrations** list — see [View details of a bidder registered in my auction](view-bidder-registration-details.md) or [See all bidders registered in my auction](view-registrations.md).
+5. Click **Next** to verify the registration, review the bidder name and address, then click **Save**.
+
+![Clerk To Floor Bidder dialog](../image/auction/live-bidding-clerk-to-floor-bidder.png "Clerk To Floor Bidder")
+
+*The bid card must match a floor bidder registered for this auction.*
+
+6. After a successful save, the lot is clerked **Sold** to that floor bidder at the current bid amount. The ring moves on (next lot suggestion or auto-open, depending on your settings).
+
+### If something goes wrong
+
+- **Invalid or unregistered bid card** — you will see an error; check the card number against floor registrations for this auction.
+- **No bid card dialog** — the current winner is not a floor bidder; the sale will post to the internet winning bidder instead.
+- **Reserve not met** — you may need **Reserve Not met** before fair warning when bid is below reserve (optional warning button on the clerking panel).
+
+### See also
+
+- [How to accept a floor bidder's bid?](#how-to-accept-a-floor-bidders-bid)
+- [How to reopen a clerked lot?](#how-to-reopen-a-clerked-lot)
 
 ---
 

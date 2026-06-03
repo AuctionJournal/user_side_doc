@@ -60,6 +60,7 @@ So default update works like a selective sync, not a forced overwrite of every c
 
 ## Related
 
+- [Explain each formula used in an auction](auction-formulas.md)
 - [How do I fill in the Details section?](build-details.md)
 - [How do I create a lot in an auction?](../auction-lot/create-lot.md)
 - [How do I import lots?](../auction-lot/import-lots.md)

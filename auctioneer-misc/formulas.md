@@ -113,6 +113,8 @@ After formulas exist, you assign them when you:
 - Run **clerking** and **settlement**.
 - Configure **client** or **floor bidder** accounting.
 
+See [Explain each formula used in an auction](../auction/auction-formulas.md) for how defaults, lot overrides, customer rules, and settlement fit together.
+
 Without the core formula types in place, **New Auction** may show **Requirements Missing** for commission or tax formulas—complete them here first.
 
 ---

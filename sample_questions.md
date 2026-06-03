@@ -137,7 +137,7 @@
 
 1. [How do I find helpful blogs in Auction Journal?](blog/find-blogs.md)
 
-## Miscellaneous
+## Auctioneer Miscellaneous
 
 1. [What is the Account section in Miscellaneous for? How do I manage it?](auctioneer-misc/account.md)
 2. [What is a formula? Why should I create formulas in advance?](auctioneer-misc/formulas.md)
@@ -298,9 +298,9 @@
 
 # AJ more questions
 
-## Auction
+## Auctioneer Miscellaneous
 
-1. Explain each formula used in Auction.
+1. [Explain each formula used in Auction.](auction/auction-formulas.md)
 
 ## Auction Lot
 
@@ -339,6 +339,8 @@
 7. [How to reopen a clerked lot?](auction/live-bidding.md#how-to-reopen-a-clerked-lot)
 8. [How to open a lot in another ring?](auction/live-bidding.md#how-to-open-a-lot-in-another-ring)
 9. [How does reset bidding work?](auction/live-bidding.md#how-does-reset-bidding-work)
-10. What if the auctioneer is disconnected from the ring? How do I reconnect?
-11. How to clerk a lot as sold to a floor bidder?
-12. How to ask for a custom bid amount on the live lot?
+10. [What if the auctioneer is disconnected from the ring? How do I reconnect?](auction/live-bidding.md#what-if-the-auctioneer-is-disconnected-from-the-ring-how-do-i-reconnect)
+11. [How to clerk a lot as sold to a floor bidder?](auction/live-bidding.md#how-to-clerk-a-lot-as-sold-to-a-floor-bidder)
+12. [How to ask for a custom bid amount on the live lot?](auction/live-bidding.md#how-to-ask-for-a-custom-bid-amount-on-the-live-lot)
+
+---
